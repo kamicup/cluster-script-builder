@@ -1,0 +1,1 @@
+$.onStart((()=>{$.log("初期化します")})),$.onInteract((a=>{$.log("インタラクトしたプレイヤー："+a.userDisplayName)}));

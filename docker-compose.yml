@@ -1,0 +1,9 @@
+services:
+
+  nodejs:
+    image: node
+    volumes:
+      - ./src:/root/src
+      - ./dist:/root/dist
+    container_name: cluster_nodejs
+    tty: true
