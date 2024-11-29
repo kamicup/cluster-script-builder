@@ -24,5 +24,6 @@ docker compose down
 ### 起動中の Docker コンテナを使ってビルド
 
 ```shell
+docker compose exec --workdir /root/src nodejs npm i
 docker compose exec --workdir /root/src nodejs npm run watch
 ```

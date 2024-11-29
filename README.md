@@ -29,7 +29,7 @@ Visual Studio Code (VSCode) や WebStorm でプロジェクトディレクトリ
 
 ```shell
 cd src
-npm i
+npm install
 ```
 
 ### 5. ビルドコマンドを実行する
